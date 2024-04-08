@@ -48,7 +48,7 @@ function gitClone() {
 }
 
 echoColorEmptyLine;
-cmd echo "Hello, fellow programmer! Welcome to Abraao's";
+cmd echo "Hello, fellow programmer! Welcome to Kilvia's";
 cmd echo;
 
 cmd echo "██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗";
@@ -68,7 +68,7 @@ cmd echo;
 cmd echo "Now sit back and relax. It'll take some time, but when done,";
 cmd echo "you'll have a much more simpler, focused  system.";
 cmd echo;
-cmd echo "-Abraao";
+cmd echo "-Kilvia";
 echoNoColorEmptyLine;
 
 read -p "Press Enter to continue...";
@@ -101,7 +101,7 @@ echoNoColorEmptyLine;
 cmd aptInstall git;
 
 echoSectionTitle "Cloning dotfiles repo in $dotfiles directory";
-cmd gitClone https://github.com/AbraaoAlves/dotfiles.git $dotfiles;
+cmd gitClone https://github.com/KilviaSantos/dotfiles.git $dotfiles;
 
 echoColorEmptyLine;
 cmd echo "████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗     ";
@@ -176,7 +176,7 @@ echoColorEmptyLine;
 cmd echo "Congratulations!";
 cmd echo;
 cmd echo "Now you have all the environment set in minutes.";
-cmd echo "Read the docs in https://github.com/AbraaoAlves/dotfiles to know the features and keymappings.";
+cmd echo "Read the docs in https://github.com/KilviaSantos/dotfiles to know the features and keymappings.";
 cmd echo "Also you can see .dotfiles_installation_log file in you home directory with all outputs from this operation.";
 cmd echo;
 cmd echo "You have to reboot your system to see the changes.";
